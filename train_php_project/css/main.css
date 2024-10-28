@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: #222;
+    padding: 20px 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+header nav a.btn {
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    color: #a1a1a1;
+}
+
+header nav a.btn:hover {
+    border-color: #de7474;
+}
+
+main {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+aside {
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 400px;
+}
+
+aside .info {
+    background-color: #ffc007;
+    color: #42410c;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 140%;
+    border-radius: 5px;
+}
+
+aside .info h2 {
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 100%;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+aside input {
+    display: block;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 12px 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#chat {
+    margin-top: 5px;
+}
+
+#this__block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#aside_login {
+    display: inline-block;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+}
+
+#man_avatar {
+    width: 49px;
+    height: 49px;
+}
+
+aside button {
+    margin-top: 12px;
+    background-color: #59b81a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 12px;
+    transition: all 500ms ease;
+}
+
+aside button:hover {
+    transform: scale(1.05);
+    background-color: #306110;
+}
+
+.div__chat {
+    background-color: #ecd5ab;
+    width: 100%;
+    padding: 12px 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.chat__mess {
+    background-color: #70e7d7;
+    color: #000;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.chat__mess h6 {
+    margin-bottom: 7px;
+}
+
+.chat__mess:first-of-type {
+    margin-top: 0px;
+}
+
+.chat__mess:last-of-type {
+    margin-bottom: 0px;
+}
+
+#block111 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.big_block {
+    margin-top: 15px;
+    overflow: auto;
+    max-height: 250px;
+}
+
+form {
+    margin: 30px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form input, form textarea {
+    width: 100%;
+    resize: vertical;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fec008;
+    color: #42410c;
+    transition: transform 500ms ease;
+}
+
+.error-mess {
+    color: #de7474;
+    margin: 10px 0;
+    font-weight: 600;
+    display: none;
+}
+
+form button:hover, .post a:hover {
+    transform: scale(1.1);
+}
+
+.list_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px 20px;
+    background-color: #fec008;
+    border-radius: 7px;
+}
+
+.list_block button {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: #ee7070;
+    color: #fff;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.list_block button:hover {
+    background-color: #ee4646;
+    transform: scale(1.08);
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post h1 {
+    margin-bottom: 10px;
+}
+
+.post .author {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.post .author span {
+    background-color: #e1bb4a;
+    padding: 2px 7px;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.post a {
+    text-decoration: none;
+    display: block;
+    margin-top: 12px;
+    width: 100px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #fec008;
+    color: #42410c;
+    text-align: center;
+    transition: transform 500ms ease;
+}
+
+.comment {
+    width: 100%;
+    background-color: #fec008;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #42410c;
+    margin-bottom: 10px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    padding: 30px;
+    color: #fff;
+    margin-top: 100px;
+    box-sizing: border-box;
+}

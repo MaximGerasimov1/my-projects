@@ -1,0 +1,31 @@
+.container .user {
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid silver;
+    padding: 15px 20px;
+}
+
+.container #user_account_h1 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.container .user #user_account_p1 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container .user #user_account_button {
+    width: 150px;
+    color: #fff;
+    background-color: #ff5644;
+    padding: 12px 12px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+.container .user #user_account_button:hover {
+    background-color: #87203b;
+}

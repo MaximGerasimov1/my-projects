@@ -1,0 +1,64 @@
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+
+.pagination {
+    margin-top: 30px;
+}
+
+.pagination > .pagination_btn {
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    background-color: #ff5644;
+    border-radius: 50%;
+    border: 0;
+    font-size: 13px;
+    margin-right: 7px;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+
+.pagination > .pagination_btn:hover {
+    background-color: #87203b;
+}
+
+.pagination > .pagination_btn a,
+.pagination .pagination_numeric a {
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.pagination .pagination_numeric {
+    margin-right: 7px;
+    background-color: #ff5644;
+    color: #fff;
+    width: 25px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 500ms ease;
+}
+
+.pagination #numeric__button {
+    margin-right: 7px;
+    color: #515b5b;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    transition: all 500ms ease;
+}
+
+.pagination .pagination_numeric .current-page {
+    background-color: #fff;
+    color: #333333;
+    font-size: 13px;
+}
+
+.pagination .pagination_numeric:hover {
+    transform: scale(1.05) translateY(-3px);
+}

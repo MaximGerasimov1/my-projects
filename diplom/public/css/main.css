@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    color: #333;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+img {max-width: 100%}
+
+a {
+    color: #888;
+    text-decoration: none;
+    transition: all 600ms ease;
+}
+
+a:hover {
+    color: #01b3b6;
+    transition: all 600ms ease;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+
+@media(max-width: 900px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+}
+
+header > .top-menu {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    color: #000;
+}
+
+header > .top-menu > .nav a {
+    margin-right: 10px;
+}
+
+header > .top-menu > .left-side > img {
+    float: left;
+    width: 100px;
+    height: 90px;
+}
+
+header > .top-menu > .left-side > span {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.main {
+    margin-top: 85px;
+    margin-bottom: 150px;
+    padding-left: 35%;
+    padding-right: 35%;
+    width: 30%;
+}
+
+@media(max-width: 900px) {
+    .main {
+        margin-top: 60px;
+        padding-left: 15%;
+        padding-right: 15%;
+        width: 70%;
+    }
+}
+
+.main h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main p:first-of-type {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main p a {
+    text-decoration: underline;
+    color: #01b3b6;
+    transition: color 600ms ease;
+}
+
+.main p a:hover {
+    color: #a91f1f;
+}
+
+.main form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main form input {
+    width: 100%;
+    font-family: "Montserrat", serif;
+    padding: 13px 12px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+}
+
+.main form button {
+    width: 200px;
+    color: #fff;
+    background-color: #ff5644;
+    padding: 15px 12px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    transition: all 600ms ease;
+    cursor: pointer;
+}
+
+.main form button:hover {
+    background-color: #87203b;
+}
+
+.main form .error-mess {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.main h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main .main_links {
+    background-color: #c2c2c2;
+    color: #000;
+    margin-top: 15px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.main .main_links #links_p_links {
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .social > i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: silver;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: all 600ms ease;
+}
+
+footer .social > i:hover {
+    transition: all 600ms ease;
+    transform: translateY(-5px);
+}

@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    transition: color 500ms ease;
+    color: #6f6f6f;
+}
+
+a.btn {
+    color: #14acf3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #14acf3;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+a.btn:hover {
+    background-color: #14acf3;
+    color: #fff;
+}
+
+a:hover {
+    color: #1f1f1f;
+}
+
+.container {
+    width: 1258px;
+    margin: 0 auto;
+}
+
+header form {
+    display: inline-block;
+}
+
+header form button {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+#remember {
+    cursor: pointer;
+    width: 1%;
+}
+
+header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header .logo {
+    color: #222;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+header nav a {
+    margin-left: 15px;
+}
+
+.presentation {
+    background: url('/img/mountain.jpg') no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: #a09f9f;
+    position: relative;
+}
+
+.presentation::after {
+    content: 'The best views over the world';
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    width: 300px;
+}
+
+.presentation::before {
+    content: 'Only the most interesting things';
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    color: #d7d7d7;
+    font-size: 15px;
+}
+
+div.block {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid silver;
+    border-bottom-width: 2px;
+    background: #ebebeb;
+    line-height: 170%;
+}
+
+div.block h1 {
+    margin-bottom: 15px;
+}
+
+
+div.block ul, div.block ol {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.blog__block {
+    background-color: #ebeaea;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.blog__block h2 {
+    margin-bottom: 10px;
+}
+
+.blog__block p {
+    margin-bottom: 15px;
+}
+
+.blog__block button {
+    color: #fff;
+    background-color: rgb(13, 194, 13);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 16px;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.blog__block button:hover {
+    background-color: #029126;
+}
+
+.articles, .products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.products .post {
+    width: 100%;
+    background-color: #a1f5ea;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+}
+
+.products .post h2 {
+    margin-bottom: 12px;
+}
+
+.products .post .anons {
+    margin-bottom: 15px;
+}
+
+.products .post #price {
+    margin-bottom: 17px;
+}
+
+.products .post a {
+    display: inline-block;
+    background-color: #0fb638;
+    border-radius: 7px;
+    padding: 10px 12px;
+    color: #fff;
+    transform: all 500ms ease;
+}
+
+.products .post a:hover {
+    background-color: #037520;
+}
+
+.products.one .post {
+    width: 100%;
+    border: 1px solid silver;
+    border-bottom-width: 2px;
+}
+
+.articles .post {
+    width: 27%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.articles .post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.articles .post a,
+.back-button,
+.delete-button,
+header form button,
+#comment__edit__button {
+    display: inline-block;
+    margin-top: 15px;
+    background: #bebebe;
+    border-radius: 5px;
+    padding: 10px 12px;
+    color: #fff;
+    transform: transform 500ms ease;
+}
+.articles .post a:hover,
+.back-button:hover,
+.delete-button:hover,
+header form button:hover,
+#comment__edit__button:hover {
+    transform: scale(1.1) translateY(-2px);
+}
+
+.comments {
+    background-color: #bebebe;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.delete-button {
+    background-color: #d45858;
+    border: none;
+    cursor: pointer;
+}
+
+.articles.one .post {
+    width: 100%;
+    border: 1px solid silver;
+    border-bottom-width: 2px;
+}
+
+form.article-form {
+    margin-top: 20px;
+}
+
+form.article-form input[type='ckeckbox'] {
+    width: initial;
+}
+
+form.article-form .login-btn {
+    display: block;
+}
+
+form.article-form label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+form.article-form input,
+form.article-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    resize: vertical;
+    max-height: 300px;
+}
+
+form.article-form input[type='submit'] {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #d45858;
+    width: 100px;
+    color: #fff;
+    border: none;
+    transition: all 500ms ease;
+}
+
+form.article-form input[type='submit']:hover {
+    background-color: #a63f3f;
+}
+
+.error-mess, .success-mess {
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.error-mess {
+    background-color: #d45858;
+}
+
+.success-mess {
+    background-color: #6ab05a;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+#heading__hoodi {
+    width:35%;
+    font-size: 38px;
+    border-radius: 15px;
+    background-color: #029126;
+    color: #fff;
+    font-weight: 300;
+    padding: 15px 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,14 @@
+.main #auth_h1 {
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+.main #auth_p {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.main form #auth_button {
+    width: 170px;
+}

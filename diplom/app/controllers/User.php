@@ -1,0 +1,24 @@
+<?php
+    class User extends Controller {
+        public function index() {
+            $user = $this->model('UserModel');
+
+            if(isset($_POST['exit_btn'])) {
+                $user->logOut();
+                exit();
+            }
+
+            $this->view('user/index', $user->getUser());
+        }
+
+        public function auth() {
+            $data = [];
+
+            if(isset($_POST['login'])) {
+                $user = $this->model('UserModel');
+                $data['message'] = $user->auth($_POST['login'], $_POST['password']);
+            }
+
+            $this->view('user/auth', $data);
+        }
+    }
