@@ -43,25 +43,25 @@
 
 ## Структура проекта
 
-|-- /app
-|   |-- /controllers
-|   |-- /core
-|   |-- /models
-|   |-- /views
-|   |-- .htaccess
-|   |-- init.php
-|-- /public
-|   |-- /blocks
-|   |-- /css
-|   |-- /img
-|   |-- /user_account_img
-|-- /vendor
-|-- 404.php
-|-- composer.json
-|-- composer.lock
-|-- composer.phar
-|-- index.php
-|-- README.md
+* /app
+    * /controllers
+    * /core
+    * /models
+    * /views
+    * .htaccess
+    * init.php
+* public
+    * /blocks
+    * /css
+     /img
+    * /user_account_img
+* /vendor
+* 404.php
+* composer.json
+* composer.lock
+* composer.phar
+* index.php
+* README.md
 
 ## Как использовать
 
